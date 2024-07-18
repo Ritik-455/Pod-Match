@@ -1,24 +1,37 @@
-import logo from './logo.svg';
+import { useEffect, useState } from 'react';
 import './App.css';
+import Discover from './components/Discover';
+import Footer from './components/Footer';
+import Herosection from './components/Herosection';
+import Paywalls from './components/Paywalls';
+import Aos from "aos";
+import "aos/dist/aos.css";
+import Loader from './components/Loader';
 
 function App() {
+  const [loading, setLoading] = useState(true);
+  useEffect(() => {
+    Aos.init({ once: true, duration: 1000 });
+  }, []);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setLoading(false);
+    }, 3000);
+  }, [])
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      {loading ? (
+        <Loader />
+      ) : (
+        <>
+          <Herosection />
+          <Discover />
+          <Paywalls />
+          <Footer />
+        </>
+      )}
+    </>
   );
 }
 
