@@ -39,9 +39,9 @@ const Footer = () => {
                         <div className="col-6 sm:col-6 md:col-4 xl:col-2 flex xl:justify-end mt-4 xl:mt-0 md:justify-start order-3 sm:order-4">
                             <ul className=' flex gap-3.5 flex-col'>
                                 <li className=' font-graph-semi text-base text-black'>Company </li>
-                                <li className='relative after:absolute after:bg-violet-600 after:w-0 after:left-[50%] after:h-[2px] after:bottom-[-3px] hover:after:left-0 hover:after:w-full hover:after:duration-300'><a href="" className=' font-graph-med text-base text-grey hover:text-violet-600 duration-300'>New & Updates</a></li>
-                                <li className='relative after:absolute after:bg-violet-600 after:w-0 after:left-[50%] after:h-[2px] after:bottom-[-3px] hover:after:left-0 hover:after:w-full hover:after:duration-300 w-fit'><a href="" className=' font-graph-med text-base text-grey hover:text-violet-600 duration-300'>Legal</a></li>
-                                <li className='relative after:absolute after:bg-violet-600 after:w-0 after:left-[50%] after:h-[2px] after:bottom-[-3px] hover:after:left-0 hover:after:w-full hover:after:duration-300'><a href="" className=' font-graph-med text-base text-grey hover:text-violet-600 duration-300'>Meet the Team</a></li>
+                                <li className='relative after:absolute after:bg-violet-600 after:w-0 after:left-[50%] after:h-[2px] after:bottom-[-3px] hover:after:left-0 hover:after:w-full hover:after:duration-300'><a href="" className=' font-graph-med text-base text-grey'>New & Updates</a></li>
+                                <li className='relative after:absolute after:bg-violet-600 after:w-0 after:left-[50%] after:h-[2px] after:bottom-[-3px] hover:after:left-0 hover:after:w-full hover:after:duration-300 w-fit'><a href="" className=' font-graph-med text-base text-grey'>Legal</a></li>
+                                <li className='relative after:absolute after:bg-violet-600 after:w-0 after:left-[50%] after:h-[2px] after:bottom-[-3px] hover:after:left-0 hover:after:w-full hover:after:duration-300'><a href="" className=' font-graph-med text-base text-grey'>Meet the Team</a></li>
                             </ul>
                         </div>
                         <div className="col-12 md:col-4 xl:col-3 flex xl:justify-end mt-4 xl:mt-0 order-5">
@@ -55,7 +55,7 @@ const Footer = () => {
                                         <p className=' font-graph-med text-sm text-grey'>Team@PodMatch.com</p>
                                     </div>
                                 </a>
-                                <div className="flex gap-[10px]">
+                                <div className="flex gap-[10px] cursor-pointer">
                                     <div className="w-[24px] h-[24px] bg-lightvoilet rounded-full flex justify-center items-center">
                                         <Help />
                                     </div>
