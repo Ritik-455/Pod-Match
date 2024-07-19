@@ -26,7 +26,7 @@ const Discover = () => {
                         </div>
                     </div>
                     <div className="col-12 lg:col-6 flex justify-center" data-aos="fade-down">
-                        <img src={Podcast} alt="Podcast" className=' max-w-[508px] w-full shadow-3xl' />
+                        <img src={Podcast} width={508} height={346} alt="Podcast" className=' max-w-[508px] w-full shadow-3xl' />
                     </div>
                 </div>
                 <Success />
@@ -46,7 +46,7 @@ const Discover = () => {
                         </div>
                     </div>
                     <div className="col-12 lg:col-6 flex justify-center" data-aos="zoom-in">
-                        <img src={Simple} alt="Podcast" className=' max-w-[508px] w-full shadow-3xl' />
+                        <img src={Simple} alt="Podcast" width={508} height={346} className=' max-w-[508px] w-full shadow-3xl' />
                     </div>
                 </div>
             </div>

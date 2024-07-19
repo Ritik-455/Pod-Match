@@ -22,7 +22,7 @@ const Quiz = () => {
                         </div>
                     </div>
                     <div className="col-12 lg:col-6 flex justify-center" data-aos="fade-up">
-                        <img src={Goals} alt="Goals" className=' max-w-[508px] w-full shadow-3xl' />
+                        <img src={Goals} alt="Goals" width={508} height={346} className=' max-w-[508px] w-full shadow-3xl' />
                     </div>
                 </div>
             </div>

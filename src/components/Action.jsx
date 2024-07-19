@@ -8,7 +8,7 @@ const Action = () => {
             <div className="container  max-w-[540px] md:max-w-[920px] lg:max-w-[992px] xl:max-w-[1200px] 2xl:max-w-[1164px]">
                 <div className="row lg:py-[35px] xl:py-[70px]">
                     <div className="col-12 lg:col-6 flex justify-center" data-aos="fade-up">
-                        <img src={Call} alt="Call" className=' max-w-[508px] w-full shadow-3xl' />
+                        <img src={Call} alt="Call" width={508} height={346} className=' max-w-[508px] w-full shadow-3xl' />
                     </div>
                     <div className="col-12 lg:col-6 flex flex-col lg:justify-end items-center lg:items-start mt-3 lg:mt-0" data-aos="fade-down">
                         <div className="relative">

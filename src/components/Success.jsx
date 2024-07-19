@@ -6,7 +6,7 @@ const Success = () => {
         <>
             <div className="row lg:py-[35px] xl:py-[72px]" id="features">
                 <div className="col-12 lg:col-6 flex justify-center" data-aos="fade-up">
-                    <img src={Avatar} alt="Avatar" className=' max-w-[508px] w-full shadow-3xl' />
+                    <img src={Avatar} alt="Avatar" width={508} height={346} className=' max-w-[508px] w-full shadow-3xl' />
                 </div>
                 <div className="col-12 lg:col-6 flex flex-col lg:justify-end items-center lg:items-start mt-3 lg:mt-0" data-aos="fade-down">
                     <div className="relative">
