@@ -10,10 +10,10 @@ const Header = () => {
         setIsOpen(!isOpen);
     };
     if (show === true) {
-        document.body.classList.add('overflow_hidden')
+        document.body.classList.add('max-lg:overflow-hidden')
     }
     else {
-        document.body.classList.remove('overflow_hidden')
+        document.body.classList.remove('max-lg:overflow-hidden')
     }
     return (
         /////////////////// Nav-bar//////////////////////////////
@@ -23,14 +23,15 @@ const Header = () => {
                     <nav className=' flex justify-between items-center'>
                         <img className='w-[186px] md:w-auto cursor-pointer' src={logo} alt="logo" />
                         <ul className={`${show ? "inset-0" : "inset-full"} flex items-center gap-[40px] xl:gap-[20px] 2xl:gap-[40px]  max-lg:fixed max-lg:top-0 max-lg:right-full max-lg:w-full max-lg:h-full max-lg:bg-white max-lg:flex max-lg:items-center max-lg:justify-center max-lg:flex-col max-lg:z-10 max-lg:transition-all max-lg:duration-300 max-lg:ease-linear `}>
-                            <li className="relative group">
+                            <li className="relative group" onClick={() => {
+                                setfirst(!show);
+                            }}>
                                 <a href="#features" className="font-graph-med text-[16px] leading-[22px] text-grey transition-all duration-300 ease-linear hover:text-violet-600">
                                     Features
                                 </a>
                                 <span className="cursor-pointer absolute -right-3 top-0 h-full flex items-center">
                                     <Drop />
                                 </span>
-                                {/* Dropdown Content */}
                                 <div className="hidden group-hover:block absolute top-[14%] left-20 lg:top-full lg:left-0 bg-white shadow-lg rounded-lg w-24 z-20">
                                     <a href="#feature1" className="block text-sm text-gray-700 p-2 hover:bg-gray-100 text-nowrap">Features 1</a>
                                     <a href="#feature1" className="block text-sm text-gray-700 p-2 hover:bg-gray-100 text-nowrap">Features 2</a>
