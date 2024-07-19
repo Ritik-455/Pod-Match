@@ -18,6 +18,7 @@ module.exports = {
         lightwhite: "#fefefe",
         lightgrey: "#838383",
         lightvoilet: "#DEDDED",
+        darkgrey: "#EBECEF"
       },
       backgroundImage: {
         'box-pattern': "linear-gradient(180deg, rgba(255, 255, 255, 1) 60%, rgba(235, 236, 239, 1) 40%);",
@@ -32,6 +33,9 @@ module.exports = {
         'xl': '1200px',
 
         '2xl': '1400px',
+      },
+      maxWidth: {
+        '4xl': "509px"
       },
       boxShadow: {
         '3xl': '2px 45px 47.4px -15px #0000001A',
