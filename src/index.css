@@ -6,21 +6,25 @@
 @font-face {
   font-family: "Graphik normal, sans-serif";
   src: url(./assets/font/Graphik-Regular-Trial.otf);
+   word-wrap: break-word;
 }
 
 @font-face {
   font-family: "Graphik semibold, sans-serif";
   src: url(./assets/font/Graphik-Semibold-Trial.otf);
+   word-wrap: break-word;
 }
 
 @font-face {
   font-family: "Graphik black, sans-serif";
   src: url(./assets/font/Graphik-Black-Trial.otf);
+   word-wrap: break-word;
 }
 
 @font-face {
   font-family: "Graphik medi, sans-serif";
   src: url(./assets/font/Graphik-Medium-Trial.otf);
+   word-wrap: break-word;
 }
 
 .font-graph-normal {
