@@ -7,6 +7,8 @@ import Paywalls from './components/Paywalls';
 import Aos from "aos";
 import "aos/dist/aos.css";
 import Loader from './components/Loader';
+import Action from './components/Action';
+import Quiz from './components/Quiz';
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -27,6 +29,8 @@ function App() {
         <>
           <Herosection />
           <Discover />
+          <Action />
+          <Quiz />
           <Paywalls />
           <Footer />
         </>
