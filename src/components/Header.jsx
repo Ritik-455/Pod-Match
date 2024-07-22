@@ -32,49 +32,49 @@ const Header = () => {
                                 <Drop />
                             </span>
                             <div className="hidden group-hover:block absolute top-full left-0 bg-white shadow-lg  w-[201px] z-20 border border-light-black rounded-2xl">
-                                <a href="#feature1" className="block text-lg text-gray-700 p-2 hover:bg-gray-100 text-nowrap rounded-2xl">Host </a>
-                                <a href="#feature1" className="block text-lg text-gray-700 p-2 hover:bg-gray-100 text-nowrap py-2 rounded-2xl">Guest</a>
-                                <a href="#feature1" className="block text-lg text-gray-700 p-2 hover:bg-gray-100 text-nowrap py-2 rounded-2xl">Both</a>
-                                <a href="#feature1" className="block text-lg text-gray-700 p-2 hover:bg-gray-100 text-nowrap pb-2 rounded-2xl">Agency</a>
+                                <a href="#feature1" className="block text-lg text-gray-700 p-2 hover:bg-blue-100 text-nowrap rounded-t-2xl">Host </a>
+                                <a href="#feature1" className="block text-lg text-gray-700 p-2 hover:bg-blue-100 text-nowrap py-2">Guest</a>
+                                <a href="#feature1" className="block text-lg text-gray-700 p-2 hover:bg-blue-100 text-nowrap py-2">Both</a>
+                                <a href="#feature1" className="block text-lg text-gray-700 p-2 hover:bg-blue-100 text-nowrap pb-2 rounded-b-2xl">Agency</a>
                             </div>
                         </li>
                         <li className=' flex gap-1 items-center relative group' onClick={toggleMenu}><a href="#pricing" className=' font-graph-med text-base leading-[22px] text-grey  transition-all duration-300 ease-linear hover:text-violet-600' onClick={() => {
                             setfirst(!show);
                         }}>Pricing</a><span className=' cursor-pointer absolute -right-3 top-0 h-full flex items-center'><Drop /></span>
                             <div className="hidden group-hover:block absolute top-full left-0 bg-white shadow-lg  w-[201px] z-20 border border-light-black rounded-2xl">
-                                <a href="#feature1" className="block text-lg text-gray-700 p-2 hover:bg-gray-100 text-nowrap rounded-2xl">Host </a>
-                                <a href="#feature1" className="block text-lg text-gray-700 p-2 hover:bg-gray-100 text-nowrap py-2 rounded-2xl">Guest</a>
-                                <a href="#feature1" className="block text-lg text-gray-700 p-2 hover:bg-gray-100 text-nowrap py-2 rounded-2xl">Both</a>
-                                <a href="#feature1" className="block text-lg text-gray-700 p-2 hover:bg-gray-100 text-nowrap pb-2 rounded-2xl">Agency</a>
+                                <a href="#feature1" className="block text-lg text-gray-700 p-2 hover:bg-blue-100 text-nowrap rounded-t-2xl">Host </a>
+                                <a href="#feature1" className="block text-lg text-gray-700 p-2 hover:bg-blue-100 text-nowrap py-2">Guest</a>
+                                <a href="#feature1" className="block text-lg text-gray-700 p-2 hover:bg-blue-100 text-nowrap py-2">Both</a>
+                                <a href="#feature1" className="block text-lg text-gray-700 p-2 hover:bg-blue-100 text-nowrap pb-2 rounded-b-2xl">Agency</a>
                             </div>
                         </li>
                         <li className=' relative group'><a href="#about" className=' font-graph-med text-base leading-[22px] text-grey  transition-all duration-300 ease-linear hover:text-violet-600' onClick={() => {
                             setfirst(!show);
                         }}>About us</a><span className=' cursor-pointer absolute -right-3 top-0 h-full flex items-center'><Drop /></span>
                             <div className="hidden group-hover:block absolute top-full left-0 bg-white shadow-lg  w-[201px] z-20 border border-light-black rounded-2xl">
-                                <a href="#feature1" className="block text-lg text-gray-700 p-2 hover:bg-gray-100 text-nowrap rounded-2xl">Meet the team</a>
-                                <a href="#feature1" className="block text-lg text-gray-700 p-2 hover:bg-gray-100 text-nowrap py-2 rounded-2xl">News and update</a>
-                                <a href="#feature1" className="block text-lg text-gray-700 p-2 hover:bg-gray-100 text-nowrap py-2 rounded-2xl">Contant</a>
-                                <a href="#feature1" className="block text-lg text-gray-700 p-2 hover:bg-gray-100 text-nowrap pb-2 rounded-2xl">Agency</a>
+                                <a href="#feature1" className="block text-lg text-gray-700 p-2 hover:bg-blue-100 text-nowrap rounded-t-2xl">Meet the team</a>
+                                <a href="#feature1" className="block text-lg text-gray-700 p-2 hover:bg-blue-100 text-nowrap py-2">News and update</a>
+                                <a href="#feature1" className="block text-lg text-gray-700 p-2 hover:bg-blue-100 text-nowrap py-2">Contant</a>
+                                <a href="#feature1" className="block text-lg text-gray-700 p-2 hover:bg-blue-100 text-nowrap pb-2 rounded-b-2xl">Agency</a>
                             </div>
                         </li>
                         <li className=' relative group'><a href="#community" className=' font-graph-med text-base leading-[22px] text-grey  transition-all duration-300 ease-linear hover:text-violet-600' onClick={() => {
                             setfirst(!show);
                         }}>Community</a><span className=' cursor-pointer absolute -right-3 top-0 h-full flex items-center'><Drop /></span>
                             <div className="hidden group-hover:block absolute top-full left-0 bg-white shadow-lg  w-[201px] z-20 border border-light-black rounded-2xl">
-                                <a href="#feature1" className="block text-lg text-gray-700 p-2 hover:bg-gray-100 text-nowrap rounded-2xl">Help</a>
-                                <a href="#feature1" className="block text-lg text-gray-700 p-2 hover:bg-gray-100 text-nowrap py-2 rounded-2xl">Awards</a>
-                                <a href="#feature1" className="block text-lg text-gray-700 p-2 hover:bg-gray-100 text-nowrap py-2 rounded-2xl">Vist</a>
-                                <a href="#feature1" className="block text-lg text-gray-700 p-2 hover:bg-gray-100 text-nowrap pb-2 rounded-2xl">Best of Product</a>
+                                <a href="#feature1" className="block text-lg text-gray-700 p-2 hover:bg-blue-100 text-nowrap rounded-t-2xl">Help</a>
+                                <a href="#feature1" className="block text-lg text-gray-700 p-2 hover:bg-blue-100 text-nowrap py-2">Awards</a>
+                                <a href="#feature1" className="block text-lg text-gray-700 p-2 hover:bg-blue-100 text-nowrap py-2">Vist</a>
+                                <a href="#feature1" className="block text-lg text-gray-700 p-2 hover:bg-blue-100 text-nowrap pb-2 rounded-b-2xl">Best of Product</a>
                             </div></li>
                         <li className=' relative group'><a href="#education" className=' font-graph-med text-base leading-[22px] text-grey  transition-all duration-300 ease-linear hover:text-violet-600' onClick={() => {
                             setfirst(!show);
                         }}>Education</a><span className=' cursor-pointer absolute -right-3 top-0 h-full flex items-center'><Drop /></span>
                             <div className="hidden group-hover:block absolute top-full left-0 bg-white shadow-lg  w-[201px] z-20 border border-light-black rounded-2xl">
-                                <a href="#feature1" className="block text-lg text-gray-700 p-2 hover:bg-gray-100 text-nowrap rounded-2xl">Poadcast</a>
-                                <a href="#feature1" className="block text-lg text-gray-700 p-2 hover:bg-gray-100 text-nowrap py-2 rounded-2xl">Blog</a>
-                                <a href="#feature1" className="block text-lg text-gray-700 p-2 hover:bg-gray-100 text-nowrap py-2 rounded-2xl">Live Event</a>
-                                <a href="#feature1" className="block text-lg text-gray-700 p-2 hover:bg-gray-100 text-nowrap pb-2 rounded-2xl">Report</a>
+                                <a href="#feature1" className="block text-lg text-gray-700 p-2 hover:bg-blue-100 text-nowrap rounded-t-2xl">Poadcast</a>
+                                <a href="#feature1" className="block text-lg text-gray-700 p-2 hover:bg-blue-100 text-nowrap py-2">Blog</a>
+                                <a href="#feature1" className="block text-lg text-gray-700 p-2 hover:bg-blue-100 text-nowrap py-2">Live Event</a>
+                                <a href="#feature1" className="block text-lg text-gray-700 p-2 hover:bg-blue-100 text-nowrap pb-2 rounded-b-2xl">Report</a>
                             </div></li>
                         <li className=' md:hidden'>
                             <a href="#login" className='ffont-graph-med text-base  text-black'>Log In</a>

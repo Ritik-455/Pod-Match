@@ -64,7 +64,7 @@ const Footer = () => {
                                     </div>
                                     <div className="">
                                         <p className=' font-graph-med text-sm text-grey'>Jacksonville, Florida 32256 USA</p>
-                                        <p className=' font-graph-med text-sm text-grey'>7643 Gate Pkwy STE 104-30</p>
+                                        <p className=' font-graph-med text-sm text-grey mt-3.5'>7643 Gate Pkwy STE 104-30</p>
                                     </div>
                                 </div>
                             </a>
