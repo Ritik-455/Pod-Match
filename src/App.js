@@ -9,6 +9,7 @@ import "aos/dist/aos.css";
 import Loader from './components/Loader';
 import Action from './components/Action';
 import Quiz from './components/Quiz';
+import BackToTopButton from './components/BackToTopButton';
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -33,6 +34,7 @@ function App() {
           <Quiz />
           <Paywalls />
           <Footer />
+          <BackToTopButton />
         </>
       )}
     </>
